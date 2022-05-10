@@ -11,26 +11,40 @@
 </head>
     <body>
         <div class="card">
-            <section id="navigation">
-                <div class="navbar">
-                    <img src="images/playit-logo.png" alt="image of playit e-sports logo">           
-                    <select class="select-tourn" name="tournaments">
-                        <option value="">Tournaments</option>
-                        <option value="Warzone Solo">Warzone Solo</option>
-                        <option value="Minecraft Cup">Minecraft Cup</option>
-                        <option value="Gamergate">Grey Bush Classic</option>
-                    </select>
-                    <div class="info">
-                        <a href="#">Events</a>
-                        <a href="#">Download</a>
-                        <a href="#">Explore</a>
+            <header>
+                <nav>
+                    <div class="logo-ctr">
+                        <img class="logo" src="images/playit-logo.png" alt="image of playit e-sports logo">
                     </div>
-                    <div class="login">
-                        <a href="#">Sign in</a>
-                        <a class="signup" href="#">Sign Up</a>
-                    </div>
-                </div>
-            </section>
+                    <input type="checkbox" id="check">
+                    <label for="check" class="hamburger-btn"><i class="fas fa-bars"></i></label>
+                    <ul class="nav-list">
+                        <li>
+                            <select class="select-tourn" name="tournaments">
+                                <option value="">Tournaments</option>
+                                <option value="Warzone Solo">Warzone Solo</option>
+                                <option value="Minecraft Cup">Minecraft Cup</option>
+                                <option value="Gamergate">Grey Bush Classic</option>
+                            </select>
+                        </li>
+                        <li>
+                            <a href="#">Events</a>
+                        </li>
+                        <li>
+                            <a href="#">Download</a>
+                        </li>
+                        <li>
+                            <a href="#">Explore</a>
+                        </li>
+                        <li>
+                            <a class="signin" href="#">Sign in</a>
+                        </li>
+                        <li>
+                            <a class="signup" href="#">Sign Up</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
             <section id="information">
                 <div class="get-started">
                     <h2>The Esports technology to engage your players with competition.</h2>
@@ -52,6 +66,5 @@
                 <a href="#"><i class="fa fa-arrow-down"></i></a>
             </div>
         </div>
-        
     </body>
 </html>
